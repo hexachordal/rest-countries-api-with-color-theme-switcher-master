@@ -104,7 +104,7 @@ var App = function (_React$Component) {
             });
             return React.createElement(
                 "div",
-                { className: "box" },
+                { className: "card" },
                 countries
             );
         }

@@ -43,7 +43,7 @@ class App extends React.Component {
                 <img class="flag" src={country.flag} />                      <h2>{country.name}</h2>
                 <p>{country.population}</p>
             </div>)
-        return <div className="box">
+        return <div className="card">
             {countries}
         </div>;
     }
