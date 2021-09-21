@@ -3,22 +3,30 @@
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  row-gap: 10px;
-  -webkit-column-gap: 1px;
-          column-gap: 1px;
+  row-gap: 2rem;
+  -webkit-column-gap: 2rem;
+          column-gap: 2rem;
   place-items: center;
 }
 
-.flag {
-  width: 100%;
-  height: auto;
-}
-
-#country {
+.countries {
   width: 200px;
   height: 300px;
   background-color: white;
   -webkit-box-shadow: 0px 0px 9px black;
           box-shadow: 0px 0px 9px black;
+}
+
+.countries .flag {
+  width: 100%;
+  height: auto;
+}
+
+.countries .country {
+  font-size: 1.5rem;
+}
+
+.countries .population {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

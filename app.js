@@ -87,17 +87,16 @@ var App = function (_React$Component) {
             var countries = cArray.map(function (country) {
                 return React.createElement(
                     "div",
-                    { id: "country" },
+                    { "class": "countries" },
                     React.createElement("img", { "class": "flag", src: country.flag }),
-                    "                      ",
                     React.createElement(
                         "h2",
-                        null,
+                        { "class": "country" },
                         country.name
                     ),
                     React.createElement(
                         "p",
-                        null,
+                        { "class": "population" },
                         country.population
                     )
                 );

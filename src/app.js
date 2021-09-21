@@ -39,9 +39,10 @@ class App extends React.Component {
 
 
         const countries = cArray.map((country) =>
-            <div id="country">
-                <img class="flag" src={country.flag} />                      <h2>{country.name}</h2>
-                <p>{country.population}</p>
+            <div class="countries">
+                <img class="flag" src={country.flag} />                      
+                <h2 class="country">{country.name}</h2>
+                <p class="population">{country.population}</p>
             </div>)
         return <div className="card">
             {countries}
